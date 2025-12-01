@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+        <!-- Adding Bootstrap-Flask styling here -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> 
+    
+    <link rel="stylesheet" href="/static/bootstrap-brite.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>donate</title>    
+</head>
+<body>
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-1 mb-1 border-bottom"> 
+                <a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <span class="fs-4"><h1 class="title">KPS Back to School</h1></span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link">ShoutOuts</a></li> 
+                    <li class="nav-item"><a href="/spin" class="nav-link">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="/news" class="nav-link">News</a></li> 
+                    <li class="nav-item"><a href="/katale" class="nav-link">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-item"><a href="/reunion" class="nav-link">Reunion</a></li>
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <section>
+        
+    <div class="container project"> 
+        <article class="blog-post px-3"> 
+            <h2 class="display-5 link-body-emphasis mb-3">School Project 2025</h2> 
+            <h5 class="lead blog-post-meta fw-bold"><em>by Carol Kibukamusoke and Nathan Wasolo</em></h5> 
+            <p class="lead">This year, <strong><em>in true KPS spirit</em></strong>, we have come together yet again to give back to our school.</em></strong></p>              
+            <p class="lead">It all started with a visit to the School on <strong><em>September 25, 2025</em></strong> by Nathan Wasolo and Carol Kibukamusoke.</p> 
+            <p class="lead">The Headmistress and her Deputy expressed their gratitude for our continued interest in partnering with the school administration.</p> 
+            <p class="lead"><strong><em></em></strong>Our representatives together with the Headmistress and her Deputy agreed that the focus for this year be to mobilise resources for textbooks for the upper primary section of our old school, <strong><em>Kitante Primary School(KPS)</em></strong> and planting trees.</p>
+        </article>
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="/static/assets/initialvisit.jpg" class="card-img-top" height="400" alt="initial visit">
+            <div class="card-body">
+                <p class="lead card-text">Nathan and Carol meeting with the Headmistress and her Deputy on their initial viist.</p>
+            </div>
+        </div>
+        <article class="blog-post px-3">                  
+            <p class="lead">Prior to the handover ceremony, Mr. Kirya read out a concept note prepared by the school administration for the old students, in which is highlighted the current academic and institutional status of the school,</p>                  
+            <p class="lead">key achievements in staff development and improvements to the school infrastructure and the existing challenges affecting academic performance and the school's development.</p> 
+            <p class="lead"><strong><em>It is clear that our continued involvement and collaboration is needed in order for the school to continue to deliver quality education to the learners.</em></strong></p>
+            <img src="/static/assets/handoversmiles.jpg" class="card-img-top" alt="book handover">
+        </article>           
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="/static/assets/briefing3.jpg" alt="concept note" class="card-img-top" alt="consept note">
+            <p class="lead card-text">Presentation of the concept note by the school administration; a copy was shared on the group.</p>            
+            <img src="/static/assets/briefing5.jpg" alt="concept note" class="card-img-top" alt="consept note">
+        </div>    
+        <article class="blog-post px-3">            
+            <p class="lead mb-4">On <strong><em>November 15, 2025</em></strong> a group of us joined Carol and Nathan at the school and participated in the handing over of the text books and symbolic transplanting of 10no trees.</p>
+            <p class="lead mb-4">Atleast 90 textbooks of varying titles and quantities as per a list compiled by the Deputy H/M have been donated and 150no. tree seedlings transplanted.</p>            
+            <p class="lead mb-4">Anita, our treasurer, has submitted the final amount collected for this project as <strong><em>UGX. 3,184,596/-,</em></strong> <em>(over and above what was required),</em> and we thank all who were able to make a contribution to this cause.</p> 
+            <img src="/static/assets/treeplantingstart.jpg" width="350" height= "180" alt="tour">
+        </article>                 
+        <article>                                              
+            <p class="lead mb-4">The headmistress joined us in a short tour of the school which was a trip down memory lane as many identified their old classrooms, remembered their class teachers and other interesting things about our childhood.</p>
+            <p class="lead mb-4">The tour provided an opportunity for the school administration team to show us the staff accomodation block that is under construction, 1no. storey down, 2no. more to go.</p>
+            <p class="lead mb-4">They also showed us the renovated classrooms through the support of parents and other partners, as well as the pending renovations particularly the roofing of some classroom blocks.</p>      
+            <img src="/static/assets/tour.jpg" width="350" height= "200" alt="tour">
+        </article> 
+        
+        <article class="blog-post px-3">              
+            <p class="lead mb-4"> We ended the tour by planting the remaining 10no. tree seedlings at locations previously identified by the school</p>
+            <p class="lead mb-4"> After the planting we were treated to a sumptuous meal, before we dispersed after a fulfilling afternoon.</p>                                  
+        </article>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/static/assets/handingover.png" class="d-block w-100" alt="handingover">
+                </div>
+                <div class="carousel-item">
+                    <img src="/static/assets/sharingameal.png" class="d-block w-100" alt="sharing a meal">
+                </div>
+                <div class="carousel-item">
+                    <img src="/static/assets/schooltour.png" class="d-block w-100" alt="touring">
+                </div>
+                <div class="carousel-item">
+                    <img src="/static/assets/touring.png" class="d-block w-100" alt="touring">
+                </div>                    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="card-body"> 
+            <p class="lead text-body-secondary mt-3">A short video compilation of all who planted a tree.<strong><em>Time will tell us who has a green thumb!</em></strong> </p>                 
+            <div class="mx-auto">
+                <video class="p-2" width="280" height="230" controls > 
+                    <source src="/static/assets/treeplantingvid.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>         
+    </div> 
+  
+    </section>     
+
+    <section>
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link px-2 text-body-secondary">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link px-2 text-body-secondary">ShoutOuts</a></li>
+                    <li class="nav-item"><a href="/spin" class="nav-link px-2 text-body-secondary">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link px-2 text-body-secondary">Awards</a></li> 
+                    <li class="nav-item"><a href="/news" class="nav-link px-2 text-body-secondary">News</a></li>
+                    <li class="nav-item"><a href="/katale" class="nav-link px-2 text-body-secondary">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link px-2 text-body-secondary">Lifestyle</a></li> 
+                    <li class="nav-item"><a href="/reunion" class="nav-link px-2 text-body-secondary">Reunion</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© Vol.2, December 2025</p> 
+            </footer> 
+        </div>
+    </section>    
+    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>

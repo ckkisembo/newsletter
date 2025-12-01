@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+        <!-- Adding Bootstrap-Flask styling here -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> 
+    
+    <link rel="stylesheet" href="/static/bootstrap-brite.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>shoutouts</title>    
+</head>
+<body>
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-1 mb-1 border-bottom"> 
+                <a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <span class="fs-4"><h1 class="title">KPS Back to School</h1></span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link">ShoutOuts</a></li> 
+                    <li class="nav-item"><a href="/spin" class="nav-link">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="/news" class="nav-link">News</a></li> 
+                    <li class="nav-item"><a href="/katale" class="nav-link">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-item"><a href="/reunion" class="nav-link">Reunion</a></li>
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <section>
+        
+    <div class="container shoutouts">        
+        <div class="tidbits row align-items-md-stretch"> 
+            <div class="col-md-4"> 
+                <div class="h-100 px-4 text-bg-secondary rounded-3"> 
+                    <h2 class="lead">🫅Volunteer Leadership</h2> 
+                    <p class="lead">Those who always step up without being asked, organize events, keep the WhatsApp group alive, handle logistics, or simply check in with others.</p>
+                    <p class="lead">We thank you for your quiet hands and big hearts, and may we also get the conviction to serve wherever we can.</p>                     
+                </div> 
+            </div> 
+            <div class="col-md-4"> 
+                <div class="h-100 px-4 bg-body-tertiary border rounded-3"> 
+                    <h2 class="lead">🤣The Class Clowns</h2> 
+                    <p class="lead">Our dear clowns, the WhatsApp group has become your new stage, and your jokes, one-liners and witty comebacks keep us laughing and give us something to look forward to everyday.</p> 
+                    <p class="lead">You remind us that laughter remains timeless, and maybe the best anti-aging secret of all...</p>                    
+                </div> 
+            </div>
+            <div class="col-md-4"> 
+                <div class="h-100 px-4 bg-body-tertiary border rounded-3"> 
+                    <h2 class="lead">Peer pressure</h2> 
+                    <p class="lead">At 50, peer pressure takes on a whole new definition. 
+                    <p class="lead">Gone are the days of being dared to climb the tallest tree or sneak an extra plate of rice and beans at lunch.</p>
+                    <p class="lead">Now, the pressure is gentler — to enjoy life, love deeply, and laugh often...</p>                     
+                </div> 
+            </div> 
+        </div>                       
+        <div class="col-md-12"> 
+            <div class="h-100 px-5 text-bg-secondary rounded-3"> 
+                <h2 class="lead">The Feels</h2> 
+                <p class="lead">KPS 80-86 has been the highlight of my life for the last 2 years; after 35 years we connected across different continents and time zones, unbelievable!</p> 
+                <p class="lead">Chatterboxes, kamoolists, the passively present, the comedians; we are a healthy mix. We started on a high, with monthly meet-ups to cut cake as we celebrate birthdays, whatever happened?</p>                
+            </div> 
+        </div>
+        <div class="col-md-12"> 
+            <div class="h-100 px-5 text-bg-light rounded-3"> 
+                <h2 class="lead">The Feels cont...</h2>                 
+                <p class="lead">The year is coming to an end, let us reflect on bonds we have formed and anticipate more participation in our group activities.</p>
+                <p class="lead">Oh come, come, come! Let’s promote the school by the roadside with funds and our time because it is the best in the world.</p>
+                <h6 class="lead"><strong><em>Lillian Ddungu Hamstard</em></strong></h6> 
+            </div> 
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"> 
+            <div class="col p-4 d-flex flex-column position-static">                  
+                <h3 class="lead mb-0">Visionary</h3> 
+                <p class="lead card-text mb-auto">Jessica, you singlehandedly compiled the first edition, in words and pictures, and reminded us of the joy of reconnection, during that first year!</p>                  
+            </div> 
+            <div class="col-auto d-none d-lg-block">                     
+                <img src="/static/assets/jessica.jpeg" class="img-fluid rounded-start" width="200" height="200" alt="Jessica">          
+            </div> 
+        </div>        
+    </div>   
+  
+    </section>     
+
+    <section>
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link px-2 text-body-secondary">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link px-2 text-body-secondary">ShoutOuts</a></li>
+                    <li class="nav-item"><a href="/spin" class="nav-link px-2 text-body-secondary">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link px-2 text-body-secondary">Awards</a></li> 
+                    <li class="nav-item"><a href="/news" class="nav-link px-2 text-body-secondary">News</a></li>
+                    <li class="nav-item"><a href="/katale" class="nav-link px-2 text-body-secondary">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link px-2 text-body-secondary">Lifestyle</a></li> 
+                    <li class="nav-item"><a href="/reunion" class="nav-link px-2 text-body-secondary">Reunion</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© Vol.2, December 2025</p> 
+            </footer> 
+        </div>
+    </section>    
+    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+        <!-- Adding Bootstrap-Flask styling here -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> 
+    
+    <link rel="stylesheet" href="/static/bootstrap-brite.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>donate</title>    
+</head>
+<body>
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-1 mb-1 border-bottom"> 
+                <a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <span class="fs-4"><h1 class="title">KPS Back to School</h1></span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link">ShoutOuts</a></li> 
+                    <li class="nav-item"><a href="/spin" class="nav-link">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="/news" class="nav-link">News</a></li> 
+                    <li class="nav-item"><a href="/katale" class="nav-link">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-item"><a href="/reunion" class="nav-link">Reunion</a></li>
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <section>
+        
+    <div class="container awards-main">
+        <div class="col-md-12"> 
+            <div class="h-100 px-5 text-bg-secondary rounded-3"> 
+                <h2>'80-86 Annual awards 2025</h2> 
+                <p class="lead" style="text-align: justify;">It’s been a long year and together we have laughed, cried, prayed and everything in-between. Thank you all for being you and for enriching this wonderful family.</p> 
+                <p class="lead" style="text-align: justify;">The awards are somewhat predictable, but I believe accurate &#128521.</p>
+                <p class="lead" style="text-align: justify;">Much love to you all!</p>                
+                <h6 class="lead"><strong><em>Elizabeth Nsereko Hunt</em></strong></h6> 
+            </div> 
+        </div>
+        <div class="awards px-2 py-1" id="icon-grid">              
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1"> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Humor award</h3> 
+                        <p class="lead">Robert K, Jaakob Tamale, Tamale aka Taskforce, Mark B, Nathan, Lilian effortlessly keep us all laughing.</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#cpu-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Best Gifs award</h3> 
+                        <p class="lead">For those that respond with Gifs that speak louder than words: Ismail, Norah & BobLee</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#calendar3"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Unsolicited Advice award</h3> 
+                        <p class="lead">Whether requested or not (but mostly funny) award- Brian & Ismail</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#home"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Cheerleader award</h3> 
+                        <p class="lead">For the group’s ultimate motivator – Lilian & Carol</p> 
+                    </div> 
+                </div>                 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#toggles2"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Violence award</h3> 
+                        <p class="lead">Specialists in Chaos, King and Queen of violence – Robert Koma & the one and only Barbara aka Barbzy for 2 years running, if I might add</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#geo-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Fashion/Drip squad award</h3> 
+                        <p class="lead"> For consistently serving looks – Paula, Martha Kaganzi, Anita & Dorothy</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#tools"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Mind & Mystery award</h3> 
+                        <p class="lead">Confuses and inspires - The Next Chapter members</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Most random posts award</h3> 
+                        <p class="lead">Petero aka Peter of Dortmund</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+        <div class="awards-cont px-2 py-1" id="icon-grid"> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1"> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#calendar3"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Consistently showing up award</h3> 
+                        <p class="lead">Deborah Natabo, Martha Ngabirano, Annette K, Carol, Patricia, always at every meeting, call, plan; Keep up the fantastic spirit</p> 
+                    </div> 
+                </div>
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Ministry of enjoyment</h3> 
+                        <p class="lead">Self-appointed Permanent Secretary and <strong><em>CFO (Chief Fun Officer)</em></strong>– Liz (and modest too); more members required so please enquire at the Ministry HQ.</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#cpu-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Local Energy providers / Daily motivations</h3> 
+                        <p class="lead">For the Prayers and general uplifting: Norah, Barbara, Wendy & Anthony</p> 
+                    </div> 
+                </div> 
+                 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#home"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Most recent additions to the family award</h3> 
+                        <p class="lead">Matsiko Kabumba, reminding us that the mission / family keeps growing</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#geo-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Occasional / Peeper’s award aka Seasonal spices</h3> 
+                        <p class="lead">George, Ronnie, Derek, Sam, Roy, Bob Lee, Milton, Benjamin & Charlie; Not always around but when you are, it’s noticed & impactful.</p> 
+                    </div> 
+                </div>
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#speedometer2"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Team support & background heroes</h3> 
+                        <p class="lead">Chief treasurer – Anita, Chief organiser and mastermind behind most plans – Nathan, Martha N</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#toggles2"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Chief Carer / silent guardians award</h3> 
+                        <p class="lead">For checking on everyone, remembering small things, and noticing when anyone needs support - Norah, Jessica, Carol</p> 
+                    </div> 
+                </div>                  
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#tools"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">The Specials award</h3> 
+                        <p class="lead">For constant laughs and banter - Sam Serunjoji, Derek Miro</p> 
+                    </div> 
+                </div>
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#home"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Silent community / Background movers award </h3> 
+                        <p class="lead">Formerly known as the Kamolists - The largest group award. You’re there behind the scenes and enabling things to happen and truth be told, this group would not have achieved all we have without you, so thank you.</p> 
+                    </div> 
+                </div>
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MIA Award</h3> 
+                        <p class="lead">Mostly absent / off the radar but drop in and drop mikes-Janet, Paul & Titus</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#cpu-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Chief hugger award</h3> 
+                        <p class="lead">Up for grabs as not utilised this year, Mark is sleeping on the job.</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#calendar3"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Crazy voice notes award</h3> 
+                        <p class="lead">The one and only Janet- Legendary, Hilarious, Dramatic & entertaining</p> 
+                    </div> 
+                </div>                 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Tactical leadership award</h3> 
+                        <p class="lead">Carol & Nathan, thanks for all the background work.</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#cpu-fill"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Light up the room</h3> 
+                        <p class="lead">Annette, Koma, Barbara, Titus & Eva (beautiful cards).</p> 
+                    </div> 
+                </div> 
+                <div class="col d-flex align-items-start"> 
+                    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em" aria-hidden="true"><use xlink:href="#calendar3"></use></svg> 
+                    <div> 
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">What's missing?</h3> 
+                        <p class="lead">Friday selfies, lunch time tunes & dedica, book(gin) club shenanigans. Let's bring these back in 2026.</p> 
+                    </div> 
+                </div>
+            </div>       
+        </div>        
+    </div>
+  
+    </section>     
+
+    <section>
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link px-2 text-body-secondary">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link px-2 text-body-secondary">ShoutOuts</a></li>
+                    <li class="nav-item"><a href="/spin" class="nav-link px-2 text-body-secondary">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link px-2 text-body-secondary">Awards</a></li> 
+                    <li class="nav-item"><a href="/news" class="nav-link px-2 text-body-secondary">News</a></li>
+                    <li class="nav-item"><a href="/katale" class="nav-link px-2 text-body-secondary">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link px-2 text-body-secondary">Lifestyle</a></li> 
+                    <li class="nav-item"><a href="/reunion" class="nav-link px-2 text-body-secondary">Reunion</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© Vol.2, December 2025</p> 
+            </footer> 
+        </div>
+    </section>    
+    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>

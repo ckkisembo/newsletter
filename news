@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+        <!-- Adding Bootstrap-Flask styling here -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> 
+    
+    <link rel="stylesheet" href="/static/bootstrap-brite.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>news</title>    
+</head>
+<body>
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-1 mb-1 border-bottom"> 
+                <a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <span class="fs-4"><h1 class="title">KPS Back to School</h1></span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link">ShoutOuts</a></li> 
+                    <li class="nav-item"><a href="/spin" class="nav-link">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="/news" class="nav-link">News</a></li> 
+                    <li class="nav-item"><a href="/katale" class="nav-link">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-item"><a href="/reunion" class="nav-link">Reunion</a></li>
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <section>
+        
+    
+    <div class= "container news">  
+        <div class=" container pricing-header p-3 pb-md-3 mx-auto text-center"> 
+            <span>
+                <h2 class="lead display-4 fw-bold text-body-emphasis" style="background-color: white;">Notice Board
+                    <p class="lead fs-5 text-body-secondary" style="background-color: white;">In the hustle and bustle of life, for a day, a week, a month, or even the whole year, you may have been too busy to keep up with the goings on in our small community. 
+                    Well, this is your opportunity to catch up; be sure to commiserate with those mourning and/or rejoice with those who are rejoicing.
+                    </p>
+                </h2>
+            </span>            
+        </div>         
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/static/assets/barbara.jpg" class="img-fluid rounded-start" alt="barbara">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="lead fw-bold card-title">Barbara Baguma Mugadu</h5>
+                        <h6 class="lead card-text">Congratulations are in order for Barbara aka "Viola", she was joined in holy matrimony to the love of her life this year.</h6>
+                        <h6 class="lead card-text">May the happy couple grow old together!</h6>                    
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">                 
+                <h5 class="lead fw-bold mb-0">Ian Wamara</h5>                  
+                <h6 class="lead card-text">This year, one of us is facing serious health challenges; </h6>
+                <h6 class="lead card-text">we love you Ian and are praying for full recovery.</h6>                                
+            </div> 
+            <div class="col-md-4">
+                <img src="/static/assets/ian.jpg" class="img-fluid rounded-start" alt="Ian">
+            </div>
+        </div>        
+        <div class="d-flex flex-column flex-md-row p-3 gap-4 py-md-5 align-items-center justify-content-center"> 
+            <div class="list-group"> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead">Ambassador Hajj Kinene Khalid Yunus, Father to Dr. Amaal Kinene
+                        <small class="lead d-block text-body-secondary">April 3, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Dorothy Kakonge, Cousin to Mark Henry and Milton Aine
+                        <small class="lead d-block text-body-secondary">June 1, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Dr. Fred Norman Bagenda, Brother to Alice and David Bagenda
+                        <small class="lead d-block text-body-secondary">June 24, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios1" value="" checked=""> 
+                    <span class="lead"> Nalongo Justine Katende, Sister to Norah Kwizera
+                        <small class="lead d-block text-body-secondary">September 27, 2025</small> 
+                    </span> 
+                </label>                
+            </div>              
+        </div>               
+        <div class="col-lg-12 p-5"> 
+            <h3 class="lead fw-bold display-5 text-center fst-italic" style="background-color: white;">Memorial</h3> 
+            <h4 class="lead my-3">Condolences to all who have lost their loved ones.</h4> 
+            <h4 class="lead mb-3">
+                We pray that the LORD will continue to comfort you.
+            </h4>
+            <h4 class="lead mb-3">
+                "Blessed are those who mourn, for they shall be comforted", <em><h6 class="lead fw-bold mt-3">Matthew 5:4</h6></em>
+            </h4> 
+        </div>
+        <div class="d-flex flex-column flex-md-row p-3 gap-4 py-md-5 align-items-top justify-content-left">
+            <div class="list-group">                  
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios2" value="" checked=""> 
+                    <span class="lead"> AIGP Charles Kataratambi, Brother to Carolyn Nshemereirwe Ndawula
+                        <small class="lead d-block text-body-secondary">October 2, 2025</small> 
+                    </span> 
+                </label>
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios2" value="" checked=""> 
+                    <span class="lead"> Mzee Francis Saletze Ngabirano, Father to Martha Ngabirano
+                        <small class="lead d-block text-body-secondary">November 24, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Hon. Canon Abednego Absalom Ongom, Father to Sarah Kerwegi
+                        <small class="lead d-block text-body-secondary">November 25, 2025</small> 
+                    </span> 
+                </label>                
+            </div>
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">              
+                <h3 class="lead mb-0">Nalongo Eva Kagimu</h3>                 
+                <p class="lead card-text mb-auto">Eva recently graduated with a Master's in Educational Leadership!</p> 
+                <h6 class="lead">Congratulations!</h6> 
+            </div> 
+            <div class="col-md-4">
+                <img src="/static/assets/eva.jpg" class="img-fluid rounded-start" height="200" alt="eva">
+            </div> 
+        </div>            
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="/static/assets/albert.jpg" class="card-img-top" alt="Albert">
+            <div class="lead card-body">
+                <h5 class="lead card-text"><strong><em>Dr. Albert Kamugisha</em></strong> was recognized for his service by Muyenga Rotary Club!</h5>
+            </div>
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">              
+                <h3 class="lead mb-0">Eng. Dr. Mark Rubarenzia</h3>                 
+                <p class="lead card-text mb-auto">Mark was installed as Rotary President for Kampala, 2025/26</p> 
+                <h6 class="lead">Congratulations!</h6> 
+            </div> 
+            <div class="col-md-4">
+                <img src="/static/assets/mark.jpg" class="img-fluid rounded-start" alt="mark">
+            </div> 
+        </div>            
+    </div>
+    
+  
+    </section>     
+
+    <section>
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="/schoolproject" class="nav-link px-2 text-body-secondary">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="/shoutouts" class="nav-link px-2 text-body-secondary">ShoutOuts</a></li>
+                    <li class="nav-item"><a href="/spin" class="nav-link px-2 text-body-secondary">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="/awards" class="nav-link px-2 text-body-secondary">Awards</a></li> 
+                    <li class="nav-item"><a href="/news" class="nav-link px-2 text-body-secondary">News</a></li>
+                    <li class="nav-item"><a href="/katale" class="nav-link px-2 text-body-secondary">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="/lifestyle" class="nav-link px-2 text-body-secondary">Lifestyle</a></li> 
+                    <li class="nav-item"><a href="/reunion" class="nav-link px-2 text-body-secondary">Reunion</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© Vol.2, December 2025</p> 
+            </footer> 
+        </div>
+    </section>    
+    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+</body>
+</html>
