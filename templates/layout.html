@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block styles %}
+        <!-- Adding Bootstrap-Flask styling here -->
+        {{ bootstrap.load_css() }} 
+    {% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-brite.min.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>{% block title %}{% endblock %}</title>    
+</head>
+<body>
+    <section>
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-1 mb-1 border-bottom"> 
+                <a href="/" class="d-flex align-items-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <span class="fs-4"><h1 class="title">KPS Back to School</h1></span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link active" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('donate') }}" class="nav-link">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('shoutouts') }}" class="nav-link">ShoutOuts</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('spin') }}" class="nav-link">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('awards') }}" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="{{ url_for('notice_board') }}" class="nav-link">News</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('katale') }}" class="nav-link">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="{{ url_for('lifestyle') }}" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-item"><a href="{{ url_for('reunion') }}" class="nav-link">Reunion</a></li>
+                </ul> 
+            </header> 
+        </div>
+    </section>
+
+    <section>
+        {% block content %}
+        {% endblock %}  
+    </section>     
+
+    <section>
+        <div class="container"> 
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="{{ url_for('home') }}" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('donate') }}" class="nav-link px-2 text-body-secondary">SchoolProject</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('shoutouts') }}" class="nav-link px-2 text-body-secondary">ShoutOuts</a></li>
+                    <li class="nav-item"><a href="{{ url_for('spin') }}" class="nav-link px-2 text-body-secondary">SpinOffs</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('awards') }}" class="nav-link px-2 text-body-secondary">Awards</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('notice_board') }}" class="nav-link px-2 text-body-secondary">News</a></li>
+                    <li class="nav-item"><a href="{{ url_for('katale') }}" class="nav-link px-2 text-body-secondary">MarketPlace</a></li>                     
+                    <li class="nav-item"><a href="{{ url_for('lifestyle') }}" class="nav-link px-2 text-body-secondary">Lifestyle</a></li> 
+                    <li class="nav-item"><a href="{{ url_for('reunion') }}" class="nav-link px-2 text-body-secondary">Reunion</a></li> 
+                </ul> 
+                <p class="text-center text-body-secondary">© Vol.2, December 2025</p> 
+            </footer> 
+        </div>
+    </section>    
+    
+   {{ bootstrap.load_js() }}
+</body>
+</html>

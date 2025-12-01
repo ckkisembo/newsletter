@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+{% block title %}news{% endblock %}
+
+{% block content%}
+    
+    <div class= "container news">  
+        <div class=" container pricing-header p-3 pb-md-3 mx-auto text-center"> 
+            <span>
+                <h2 class="lead display-4 fw-bold text-body-emphasis" style="background-color: white;">Notice Board
+                    <p class="lead fs-5 text-body-secondary" style="background-color: white;">In the hustle and bustle of life, for a day, a week, a month, or even the whole year, you may have been too busy to keep up with the goings on in our small community. 
+                    Well, this is your opportunity to catch up; be sure to commiserate with those mourning and/or rejoice with those who are rejoicing.
+                    </p>
+                </h2>
+            </span>            
+        </div>         
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='assets/barbara.jpg') }}" class="img-fluid rounded-start" alt="barbara">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="lead fw-bold card-title">Barbara Baguma Mugadu</h5>
+                        <h6 class="lead card-text">Congratulations are in order for Barbara aka "Viola", she was joined in holy matrimony to the love of her life this year.</h6>
+                        <h6 class="lead card-text">May the happy couple grow old together!</h6>                    
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">                 
+                <h5 class="lead fw-bold mb-0">Ian Wamara</h5>                  
+                <h6 class="lead card-text">This year, one of us is facing serious health challenges; </h6>
+                <h6 class="lead card-text">we love you Ian and are praying for full recovery.</h6>                                
+            </div> 
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='assets/ian.jpg') }}" class="img-fluid rounded-start" alt="Ian">
+            </div>
+        </div>        
+        <div class="d-flex flex-column flex-md-row p-3 gap-4 py-md-5 align-items-center justify-content-center"> 
+            <div class="list-group"> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead">Ambassador Hajj Kinene Khalid Yunus, Father to Dr. Amaal Kinene
+                        <small class="lead d-block text-body-secondary">April 3, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Dorothy Kakonge, Cousin to Mark Henry and Milton Aine
+                        <small class="lead d-block text-body-secondary">June 1, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Dr. Fred Norman Bagenda, Brother to Alice and David Bagenda
+                        <small class="lead d-block text-body-secondary">June 24, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios1" value="" checked=""> 
+                    <span class="lead"> Nalongo Justine Katende, Sister to Norah Kwizera
+                        <small class="lead d-block text-body-secondary">September 27, 2025</small> 
+                    </span> 
+                </label>                
+            </div>              
+        </div>               
+        <div class="col-lg-12 p-5"> 
+            <h3 class="lead fw-bold display-5 text-center fst-italic" style="background-color: white;">Memorial</h3> 
+            <h4 class="lead my-3">Condolences to all who have lost their loved ones.</h4> 
+            <h4 class="lead mb-3">
+                We pray that the LORD will continue to comfort you.
+            </h4>
+            <h4 class="lead mb-3">
+                "Blessed are those who mourn, for they shall be comforted", <em><h6 class="lead fw-bold mt-3">Matthew 5:4</h6></em>
+            </h4> 
+        </div>
+        <div class="d-flex flex-column flex-md-row p-3 gap-4 py-md-5 align-items-top justify-content-left">
+            <div class="list-group">                  
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios2" value="" checked=""> 
+                    <span class="lead"> AIGP Charles Kataratambi, Brother to Carolyn Nshemereirwe Ndawula
+                        <small class="lead d-block text-body-secondary">October 2, 2025</small> 
+                    </span> 
+                </label>
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" name="listGroupRadios" id="listGroupRadios2" value="" checked=""> 
+                    <span class="lead"> Mzee Francis Saletze Ngabirano, Father to Martha Ngabirano
+                        <small class="lead d-block text-body-secondary">November 24, 2025</small> 
+                    </span> 
+                </label> 
+                <label class="list-group-item d-flex gap-2"> 
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked=""> 
+                    <span class="lead"> Hon. Canon Abednego Absalom Ongom, Father to Sarah Kerwegi
+                        <small class="lead d-block text-body-secondary">November 25, 2025</small> 
+                    </span> 
+                </label>                
+            </div>
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">              
+                <h3 class="lead mb-0">Nalongo Eva Kagimu</h3>                 
+                <p class="lead card-text mb-auto">Eva recently graduated with a Master's in Educational Leadership!</p> 
+                <h6 class="lead">Congratulations!</h6> 
+            </div> 
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='assets/eva.jpg') }}" class="img-fluid rounded-start" height="200" alt="eva">
+            </div> 
+        </div>            
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="{{ url_for('static', filename='assets/albert.jpg')}}" class="card-img-top" alt="Albert">
+            <div class="lead card-body">
+                <h5 class="lead card-text"><strong><em>Dr. Albert Kamugisha</em></strong> was recognized for his service by Muyenga Rotary Club!</h5>
+            </div>
+        </div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="background-color: white;"> 
+            <div class="col p-4 d-flex flex-column position-static">              
+                <h3 class="lead mb-0">Eng. Dr. Mark Rubarenzia</h3>                 
+                <p class="lead card-text mb-auto">Mark was installed as Rotary President for Kampala, 2025/26</p> 
+                <h6 class="lead">Congratulations!</h6> 
+            </div> 
+            <div class="col-md-4">
+                <img src="{{ url_for('static', filename='assets/mark.jpg')}}" class="img-fluid rounded-start" alt="mark">
+            </div> 
+        </div>            
+    </div>
+    
+{% endblock %}
